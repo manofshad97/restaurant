@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{>head}}
+</head>
+<body>
+
+{{>nav}}
+<!-- END nav -->
+
+<section class="home-slider js-fullheight owl-carousel bg-white">
+    <div class="slider-item js-fullheight">
+        <div class="overlay"></div>
+        <div class="container-fluid p-0">
+            <div class="row d-md-flex no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+                <div class="one-third order-md-last img js-fullheight" style="background-image:url(/images/bg_3.jpg);">
+                    <div class="overlay"></div>
+                </div>
+                <div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                    <div class="text mt-md-5">
+                        <h1 class="mb-4">{{page.slide1.header}}</h1>
+                        <p>{{page.slide1.subtext}}</p>
+                        <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Book A Table</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider-item js-fullheight">
+        <div class="overlay"></div>
+        <div class="container-fluid p-0">
+            <div class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+                <div class="one-third order-md-last img js-fullheight" style="background-image:url(/images/bg_2.jpg);">
+                    <div class="overlay"></div>
+                </div>
+                <div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                    <div class="text mt-md-5">
+                        <h1 class="mb-4">{{page.slide2.header}}</h1>
+                        <p>{{page.slide2.subtext}}</p>
+                        <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Book A Table</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="ftco-section ftco-wrap-about ftco-no-pb ftco-no-pt">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-sm-5 img img-2 d-flex align-items-center justify-content-center justify-content-md-end" style="background-image: url(/images/about.jpg); position: relative"></div>
+            <div class="col-sm-7 wrap-about py-5 ftco-animate">
+                <div class="heading-section mt-5 mb-4">
+                    <div class="pl-lg-5 ml-md-5">
+                        <span class="subheading">About</span>
+                        <h2 class="mb-4">Welcome to Shad's Restaurant</h2>
+                    </div>
+                </div>
+                <div class="pl-lg-5 ml-md-5">
+                    <p>Since opening in 1997, Shad's Restaurant has earned its place among the pillars of New York City’s bustling dining scene. It has received numerous praise for its refined American and international cuisine, world-class cellar and gracious hospitality. </p>
+                    <h3 class="mt-5">Popular Items</h3>
+                    <div class="thumb my-4 d-flex">
+                        <a href="#bobby" class="thumb-menu pr-md-4 text-center">
+                            <div class="img" style="background-image: url(/images/lunch-4.jpg);"></div>
+                            <h4>Pan Asian Shrimp Skewers</h4>
+                        </a>
+                        <a href="#bobby" class="thumb-menu pr-md-4 text-center">
+                            <div class="img" style="background-image: url(/images/lunch-7.jpg);"></div>
+                            <h4>Chicken Bruschetta</h4>
+                        </a>
+                        <a href="#bobby" class="thumb-menu pr-md-4 text-center">
+                            <div class="img" style="background-image: url(/images/lunch-6.jpg);"></div>
+                            <h4>Marinated Skirt Steak</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(/images/bg_4.jpg);" data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="row d-md-flex align-items-center justify-content-center">
+            <div class="col-lg-10">
+                <div class="row d-md-flex align-items-center">
+                    <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18">
+                            <div class="text">
+                                <strong class="number" data-number="23">0</strong>
+                                <span>Years of Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18">
+                            <div class="text">
+                                <strong class="number" data-number="50000">0</strong>
+                                <span>Happy Customers</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18">
+                            <div class="text">
+                                <strong class="number" data-number="1000000">0</strong>
+                                <span>Shad's Power Level</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18">
+                            <div class="text">
+                                <strong class="number" data-number="300">0</strong>
+                                <span>Working Days</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-2">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+                <span class="subheading">Specialties</span>
+                <h2 id = 'bobby' class="mb-4">Our Menu</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 menu-wrap">
+                <div class="heading-menu text-center ftco-animate">
+                    <h3>Breakfast</h3>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(/images/dessert-1.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Buttermilk Pancakes - Full Stack</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$8.99</span>
+                            </div>
+                        </div>
+                        <p>Five buttermilk pancakes topped with whipped real butter and strawberries</p>
+                    </div>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(https://previews.123rf.com//images/oryol/oryol1712/oryol171200672/91458525-homemade-breakfast-of-fried-eggs-bacon-beans-and-tomatoes-on-wooden-table-overhead-view.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Quick Two Egg Breakfast</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$9.99</span>
+                            </div>
+                        </div>
+                        <p>Healthy meal of fried eggs, bacon, beans and tomatoes</p>
+                    </div>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(https://i.pinimg.com/originals/f8/03/30/f803300ffbc642f7837acba9c54cd749.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Egg and Sausage Smokehouse Combo</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$11.99</span>
+                            </div>
+                        </div>
+                        <p>Two jumbo smoked sausage links served with fried eggs, bacon, beans, and toast</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 menu-wrap">
+                <div class="heading-menu text-center ftco-animate">
+                    <h3>Lunch</h3>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(/images/lunch-7.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Chicken Bruschetta</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$20.99</span>
+                            </div>
+                        </div>
+                        <p>Grilled or crisp fried chicken topped with a cool salad of tomatoes, arugula, red onion, and basil balsamic syrup</p>
+                    </div>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(/images/lunch-4.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Pan Asian Shrimp Skewers</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$9.99</span>
+                            </div>
+                        </div>
+                        <p>Tempura shrimp topped with sweet and spicy mango chili salsa</p>
+                    </div>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(https://cdn.unos.com//images/menus/burgers/cheddar-mushroom.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>The Shad Burger</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$12.99</span>
+                            </div>
+                        </div>
+                        <p>Cheeseburger with aged cheddar, charcoal grilled beef patty, and a pile of sautéed fresh mushrooms.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 menu-wrap">
+                <div class="heading-menu text-center ftco-animate">
+                    <h3>Dinner</h3>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(/images/lunch-6.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Marinated Skirt Steak</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$29.99</span>
+                            </div>
+                        </div>
+                        <p>Skirt steak marinated in balsamic vinegar, soy sauce, olive oil, black pepper</p>
+                    </div>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(https://cdn.unos.com//images/menus/seafood/shrimp-zoodles.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Sautéed Shrimp Noodles</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$17.99</span>
+                            </div>
+                        </div>
+                        <p>Zucchini noodles sautéed with shrimp, dorati cherry tomatoes and fresh garlic</p>
+                    </div>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(https://cdn.unos.com//images/menus/chicken/herb-rubbed.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Herb-Rubbed Chicken</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$15.99</span>
+                            </div>
+                        </div>
+                        <p>Chicken breast rubbed with rosemary, basil, and garlic. Served with your choice of two sides</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="col-md-6 col-lg-4 menu-wrap">
+                <div class="heading-menu text-center ftco-animate">
+                    <h3>Desserts</h3>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(https://keeprecipes.com/sites/keeprecipes/files/imagecache/recipe_large/deep-fried-ice-cream.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Fried Ice Cream</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$7.99</span>
+                            </div>
+                        </div>
+                        <p>Deep fried vanilla ice cream drizzled in chocolate and honey</p>
+                    </div>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(/images/dessert-2.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Berry Trio Parfait</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$6.99</span>
+                            </div>
+                        </div>
+                        <p>Berry parfait with vanilla yogurt, sliced strawberries, whole blueberries, raspberries and crisp honey-oat granola</p>
+                    </div>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(/images/dessert-3.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Lava Cake</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$8.99</span>
+                            </div>
+                        </div>
+                        <p>Warm chocolate cake filled with molten chocolate. Topped with vanilla ice cream upon request</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 menu-wrap">
+                <div class="heading-menu text-center ftco-animate">
+                    <h3>Wine Card</h3>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(/images/wine-1.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Red Wine - Pinot Noir</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$19.99</span>
+                            </div>
+                        </div>
+                        <p>Francois Cazin, Cheverny Rouge, Loire Valley, France, 2017</p>
+                    </div>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(https://blog.vinfolio.com/wp-content/uploads/2019/09/1.jpeg-25.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>White Wine - Chenin Blanc</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$23.99</span>
+                            </div>
+                        </div>
+                        <p>Joostenberg J, South Africa 2018</p>
+                    </div>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/35/Rose_Wine_02232.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Rose Wine - Thalvin Tandem</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$25.99</span>
+                            </div>
+                        </div>
+                        <p>'Syrocco', Rabat-Casablanca, Morocco, 2018</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 menu-wrap">
+                <div class="heading-menu text-center ftco-animate">
+                    <h3>Drinks</h3>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(/images/drink-1.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Non-Alcoholic Peach Margarita</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$7.99</span>
+                            </div>
+                        </div>
+                        <p>Fresh peach juice, light agave syrup, chilled lime seltzer</p>
+                    </div>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(/images/drink-2.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Lime Margarita</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$10.99</span>
+                            </div>
+                        </div>
+                        <p>Freshly squeezed lime juice, agave syrup, tequila, orange liqueur</p>
+                    </div>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(/images/drink-3.jpg);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Orange Martini</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">$14.99</span>
+                            </div>
+                        </div>
+                        <p>Freshly squeezed orange juice, agave syrup, orange liqueur, vodka</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="ftco-section testimony-section" style="background-image: url(/images/bg_5.jpg);" data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-2">
+            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+                <span class="subheading">Testimony</span>
+                <h2 class="mb-4">Happy Customers</h2>
+            </div>
+        </div>
+        <div class="row ftco-animate justify-content-center">
+            <div class="col-md-7">
+                <div class="carousel-testimony owl-carousel ftco-owl">
+                    <div class="item">
+                        <div class="testimony-wrap text-center py-4 pb-5">
+                            <div class="user-img mb-4" style="background-image: url(/images/person_1.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                            </div>
+                            <div class="text p-3">
+                                <p class="mb-4">Had dinner with some friends. Menu is perfect, something for everyone. Service was awesome and Jason was very accommodating. Will be back definitely!</p>
+                                <p class="name">Shad's Paid Actor 1</p>
+                                <span class="position">Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap text-center py-4 pb-5">
+                            <div class="user-img mb-4" style="background-image: url(/images/person_2.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                            </div>
+                            <div class="text p-3">
+                                <p class="mb-4">The lunch menu was very good - the shrimp was spicy but not too spicy and the noodles were excellent. Courtney our server was excellent and friendly, knowledgeable. Would stop in again if in the area.</p>
+                                <p class="name">Shad's Paid Actor 2</p>
+                                <span class="position">Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap text-center py-4 pb-5">
+                            <div class="user-img mb-4" style="background-image: url(/images/person_3.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                            </div>
+                            <div class="text p-3">
+                                <p class="mb-4">Stopped in for dinner. Food was very good and reasonably priced. Ordered a steak dinner. It was tender and well seasoned.</p>
+                                <p class="name">Shad's Paid Actor 3</p>
+                                <span class="position">Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap text-center py-4 pb-5">
+                            <div class="user-img mb-4" style="background-image: url(/images/person_4.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                            </div>
+                            <div class="text p-3">
+                                <p class="mb-4">Staff is extremely pleasant, and welcoming. Our order was delivered to the table promptly, and everything we ordered was hot, delicious, and the servings were generous. Requested to share one large dessert, and the server had the kitchen prepare two smaller dishes for us...a nice gesture, and it was appreciated!
+                                </p>
+                                <p class="name">Shad's Paid Actor 4</p>
+                                <span class="position">Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap text-center py-4 pb-5">
+                            <div class="user-img mb-4" style="background-image: url(https://s2.best-wallpaper.net/wallpaper/1920x1200/1811/Blonde-girl-look-coffee_1920x1200.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                            </div>
+                            <div class="text p-3">
+                                <p class="mb-4">The food is great esp. the chicken bruschetta and steak. Everything's properly prepared & it’s a great value for the price. The service is also great and accommodating. Highly recommended!</p>
+                                <p class="name">Shad's Paid Actor 5</p>
+                                <span class="position">Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="ftco-section ftco-no-pt ftco-no-pb">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-5 ftco-animate img img-2" style="background-image: url(/images/bg_6.jpg);"></div>
+            <div class="col-md-7 ftco-animate makereservation p-4 p-md-5">
+                <div class="heading-section ftco-animate mb-5">
+                    <span class="subheading">Book a Table</span>
+                    <h2 class="mb-4">Make Reservation</h2>
+                </div>
+                <form action="#">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Name</label>
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Email</label>
+                                <input type="text" class="form-control" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Phone</label>
+                                <input type="text" class="form-control" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Phone</label>
+                                <input type="text" class="form-control" id="book_date" placeholder="Date">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Time</label>
+                                <input type="text" class="form-control" id="book_time" placeholder="Time">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Person</label>
+                                <div class="select-wrap one-third">
+                                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                                    <select name="" id="" class="form-control">
+                                        <option value="">Person</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4+</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-3">
+                            <div class="form-group">
+                                <input type="submit" value="Make a Reservation" class="btn btn-primary py-3 px-5">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{>footer}}
+
+
+<!-- loader -->
+
+
+
+{{>scripts}}
+
+</body>
